@@ -1,0 +1,25 @@
+{
+  "name": "speech-colors",
+  "version": "1.0.0",
+  "description": "Say a color if valid it will color the background",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "now-build": "yarn build"
+  },
+  "author": "Erlinis Quintana",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "css-loader": "^3.5.1",
+    "style-loader": "^1.1.3"
+  },
+  "browserlist": [
+    "last 1 chrome versions"
+  ]
+}
